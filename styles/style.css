@@ -11,6 +11,7 @@ body {
     background-image: url(../src/img/header.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -21,3 +22,10 @@ body {
     margin-top: 30vh;
     font-family: 'Noto Serif', serif;
 }
+
+.header hr {
+    width: 15%;
+    margin: auto;
+    border-top-width: 3px !important;
+}
+
