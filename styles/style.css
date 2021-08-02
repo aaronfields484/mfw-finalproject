@@ -23,9 +23,16 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
+
 .header hr {
     width: 15%;
     margin: auto;
     border-top-width: 3px !important;
 }
 
+@media only screen and (max-width: 480px) {
+    .header {
+      background-attachment: unset;
+      height: 90vh;
+    }
+  }
