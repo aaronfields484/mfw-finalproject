@@ -5,6 +5,7 @@
 
 body {
     height: 200vh;
+
 }
 
 .navbar {
@@ -42,5 +43,16 @@ body {
     .header {
       background-attachment: unset;
       height: 90vh;
+    }
+
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+    .navbar {
+        position: fixed !important;
+        width: 100%;
+        background-color: rgb(96, 127, 170, 0.6);
+      
     }
   }
