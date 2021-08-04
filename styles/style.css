@@ -5,6 +5,7 @@
 
 body {
     height: 400vh;
+    background-color: #d3eaf2 !important;
 }
 
 .navbar {
@@ -53,6 +54,27 @@ body {
     width: 135px;
     border-top-width: 3px !important;
 }
+
+.project-heading {
+    height: 50vh;
+    background-image: url(../src/img/project.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project-heading h1 {
+    padding-top: 20vh;
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
 
 @media only screen and (max-width: 480px) {
     .header {
