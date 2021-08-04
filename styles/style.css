@@ -4,8 +4,7 @@
 }
 
 body {
-    height: 200vh;
-
+    height: 400vh;
 }
 
 .navbar {
@@ -25,6 +24,7 @@ body {
     height: 100vh;
     text-align: center;
     border-radius: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .header h1 {
@@ -32,10 +32,25 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-
 .header hr {
-    width: 15%;
+    width: 250px;
     margin: auto;
+    border-top-width: 3px !important;
+}
+
+
+.about-me {
+    background-color: #d3eaf2;
+    height: 50vh;
+    padding: 8%;
+}
+
+.about-me p {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.about-me hr {
+    width: 135px;
     border-top-width: 3px !important;
 }
 
